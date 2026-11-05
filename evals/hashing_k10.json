@@ -1,0 +1,28 @@
+{
+  "embedder": "hashing-md5-v1",
+  "embedder_dim": 384,
+  "embedder_note": "Deterministic signed MD5 feature hashing over word unigrams and bigrams, L2-normalized. This is not a neural semantic model and it does not download weights.",
+  "command": "python -m semsearch eval --k 10 --embedder hashing",
+  "k": 10,
+  "rrf_k": 60,
+  "num_documents": 40,
+  "num_queries": 20,
+  "relevant_grade_min": 1,
+  "metrics": {
+    "bm25": {
+      "recall@10": 0.95,
+      "mrr": 1.0,
+      "ndcg@10": 0.960008
+    },
+    "dense": {
+      "recall@10": 0.891667,
+      "mrr": 0.966667,
+      "ndcg@10": 0.890735
+    },
+    "hybrid": {
+      "recall@10": 0.95,
+      "mrr": 0.975,
+      "ndcg@10": 0.9374
+    }
+  }
+}

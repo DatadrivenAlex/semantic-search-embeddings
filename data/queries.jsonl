@@ -1,0 +1,20 @@
+{"id": "q-sso-reset", "text": "How do I reset my SSO password?"}
+{"id": "q-sso-lockout", "text": "My account is locked after too many login attempts"}
+{"id": "q-vpn", "text": "How do I connect to the corporate VPN from home?"}
+{"id": "q-rotate-key", "text": "How should I rotate a personal API key?"}
+{"id": "q-secrets", "text": "Where do we store production secrets?"}
+{"id": "q-deploy", "text": "How do I deploy a service to Kubernetes?"}
+{"id": "q-rollback", "text": "How do I undo a bad production release?"}
+{"id": "q-page", "text": "How do I page the on-call engineer during an incident?"}
+{"id": "q-postmortem", "text": "What belongs in a blameless postmortem?"}
+{"id": "q-gpu", "text": "How do I request a GPU for model training?"}
+{"id": "q-embed", "text": "How are FAQ documents turned into embeddings for semantic search?"}
+{"id": "q-rrf", "text": "What is reciprocal rank fusion and when should I use it?"}
+{"id": "q-metrics", "text": "Which offline metrics should I report for a retrieval system?"}
+{"id": "q-finetune", "text": "How do I fine-tune a bi-encoder with multiple negatives ranking loss?"}
+{"id": "q-retention", "text": "How long do we retain training datasets?"}
+{"id": "q-access", "text": "How do I get read access to a warehouse dataset?"}
+{"id": "q-ci-slow", "text": "My CI job is slow because dependencies reinstall on every build"}
+{"id": "q-latency", "text": "What latency budget do online inference endpoints have?"}
+{"id": "q-passphrase", "text": "I forgot the passphrase for the single sign-on portal"}
+{"id": "q-flag", "text": "How do I ship a change I can turn off without redeploying?"}
